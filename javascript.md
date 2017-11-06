@@ -736,27 +736,27 @@ function query() {
 
 ```
 function Jedi() {
-  console.log('new jedi');
+    console.log('new jedi');
 }
 
 // bad
 Jedi.prototype = {
-  fight: function fight() {
-    console.log('fighting');
-  },
-
-  block: function block() {
-    console.log('blocking');
-  }
+    fight: function fight() {
+        console.log('fighting');
+    },
+    
+    block: function block() {
+        console.log('blocking');
+    }
 };
 
 // good
 Jedi.prototype.fight = function fight() {
-  console.log('fighting');
+    console.log('fighting');
 };
 
 Jedi.prototype.block = function block() {
-  console.log('blocking');
+    console.log('blocking');
 };
 ```
 
@@ -793,20 +793,20 @@ $(this).on('listingUpdated', function (e, data) {
 
 ```
 function (global) {
-  'use strict';
+    'use strict';
 
-  var previousFancyInput = global.FancyInput;
-
-  function FancyInput(options) {
-    this.options = options || {};
-  }
-
-  FancyInput.noConflict = function noConflict() {
-    global.FancyInput = previousFancyInput;
-    return FancyInput;
-  };
-
-  global.FancyInput = FancyInput;
+    var previousFancyInput = global.FancyInput;
+    
+    function FancyInput(options) {
+        this.options = options || {};
+    }
+    
+    FancyInput.noConflict = function noConflict() {
+        global.FancyInput = previousFancyInput;
+        return FancyInput;
+    };
+    
+    global.FancyInput = FancyInput;
 }(this);
 ```
 
