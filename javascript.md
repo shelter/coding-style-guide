@@ -18,8 +18,8 @@
 14. [构造函数](#14-构造函数)
 15. [事件](#15-事件)
 16. [模块](#16-模块)
-16. [jQuery](#16-jQuery)
-17. [ES6相关规范参考airbnb](https://github.com/airbnb/javascript)
+16. [jQuery](#17-jQuery)
+17. [ES6相关内容参考airbnb](https://github.com/airbnb/javascript)
 
 
 
