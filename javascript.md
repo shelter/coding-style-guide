@@ -723,7 +723,17 @@ function query() {
     var CLASS_NAME = 'className';
 ```
 
-### 13.5 特殊情况
+### 13.5 js相关钩子id或class命名以`j-`开头的小驼峰表示
+
+```
+    // bad
+    <div class='showCount'></div>
+    
+    // good
+    <div class='j-showCount'></div>
+```
+
+### 13.6 特殊情况
 
 * 使用到URL的地方一定全大写, 比如说 baseURL
 * 涉及Android的，一律大写第一个字母
