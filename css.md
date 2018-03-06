@@ -106,15 +106,15 @@
 示例：
 
 ```css
-.ui-card__hd {
+.ui-card_hd {
     margin: 0;
 }
 
-.ui-card__bd {
+.ui-card_bd {
     margin: 0;
 }
 
-.ui-card__ft {
+.ui-card_ft {
     margin: 0;
 }
 ```
