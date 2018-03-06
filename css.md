@@ -19,7 +19,7 @@
 区块、模块、组件等一个整个的结构遵循BEM命名思想；
 
 * `.block` 代表了更高级别的抽象或组件；
-* `.block__element` 代表`.block`的后代，用于形成一个完整的`.block`的整体；
+* `.block_element` 代表`.block`的后代，用于形成一个完整的`.block`的整体；
 * `.block--modifier` 代表`.block`的不同状态或不同版本;
 * `.is-` | `.has-` | `.ext-` 代表`.block`的修饰符，**不使用双中划线`--`**。
 
@@ -30,7 +30,7 @@
     margin: 0;
 }
 
-.person__hand {
+.person_hand {
     margin: 0;
 }
 
@@ -38,10 +38,10 @@
     margin: 0;
 }
 
-.person--female__hand {
+.person--female_hand {
     margin: 0;
 }
-.person__hand--left {
+.person_hand--left {
     margin: 0;
 }
 
