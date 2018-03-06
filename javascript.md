@@ -723,14 +723,14 @@ function query() {
     var CLASS_NAME = 'className';
 ```
 
-### 13.5 js相关钩子id或class命名以`j-`开头的小驼峰表示
+### 13.5 js相关钩子id或class命名以`J-`开头的 大驼峰 表示
 
 ```
     // bad
     <div class='showCount'></div>
     
     // good
-    <div class='j-showCount'></div>
+    <div class='J-ShowCount'></div>
 ```
 
 ### 13.6 特殊情况
