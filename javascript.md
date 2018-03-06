@@ -723,7 +723,7 @@ function query() {
     var CLASS_NAME = 'className';
 ```
 
-### 13.5 js相关钩子id或class命名以`J-`开头的 大驼峰 表示
+### 13.5 js相关钩子id或class命名以`J-`开头的 （大驼峰） 表示
 
 ```
     // bad
