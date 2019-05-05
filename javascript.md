@@ -197,8 +197,31 @@
   let value = 'hello world';
   console.log(value);
 ```
+### 在多行语句中，三元运算符必须定义在行首。
+```
+  // bad
+  let location = env.development ?
+    'localhost':
+    'www.api.com'
+  
+  // good
+  let location = env.development
+    ? 'localhost'
+    : 'www.api.com'
+```
 
-### 1.17 逗号`,`必须定义在行尾。// TODO
+### 在多行语句中，`.`运算符必须定义在行首。
+```
+  // bad
+  console.
+    log('hello');
+  
+  // good
+  console
+    .log('hello');
+```
+
+### 1.17 在多行语句中，逗号`,`必须定义在行尾。 
 ```
   // bad
   const obj = {
