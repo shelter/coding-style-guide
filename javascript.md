@@ -423,3 +423,14 @@
     };
   }
 ```
+
+### 2.7 仅用于JS钩子的class,或id使用大写`J_`加大驼峰表示
+```
+  // bad
+  #toolbar
+  .toolbar-item
+  
+  // good
+  #J_Toolbar
+  .J_ToolbarItem  
+```
