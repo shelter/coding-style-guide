@@ -24,7 +24,7 @@
   let my_var = 'hello';
   
   // good
-  function myFunction () { }
+  function myFunction() { }
   let myVar = 'hello';
 ```
 
